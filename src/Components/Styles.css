@@ -1,0 +1,97 @@
+.Content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.Caratula {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80%;
+}
+
+.Episode {
+  background-color:
+rgb(198, 198, 198);
+margin: 15px;
+width: 200px;
+height: 200px;
+border-radius: 2px;
+
+}
+.Image{
+   height: 75%; 
+   object-fit: cover;
+}
+.img{
+  height:200px;
+  width:200px;
+  object-fit: cover;
+  border-radius:2px;
+}
+.InfoImage{
+  height: 25%;
+}
+.Character {
+  background-color:
+rgb(198, 198, 198);
+  border-radius:2px;
+  margin: 10px;
+  width: 200px;
+  height:200px;
+}
+.CharacterMenu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.EpisodeMenu{
+  width:60%;
+  display:flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.CharacterShow{
+  width:40%;
+  display:flex;
+  flex-direction: column;
+  background-color:
+rgb(198, 198, 198);
+}
+
+.InfoImageSelected{
+  width: 50%;
+}
+.InfoEpisodio{
+  display:flex;
+  flex-direction:column;
+}
+.EpisodeSelected{
+  display:flex;
+}
+.ImageSelected{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+}
+.button{
+  display:flex;
+  cursor:pointer;
+}
+.mapCharacters{
+  display:flex;
+  flex-wrap:wrap;
+
+}
+.filmRating{
+  padding:5px 10px;
+}
+.yellow{
+  cursor:pointer;
+}
